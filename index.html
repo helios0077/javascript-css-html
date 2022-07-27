@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript:Lesson1</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="center">
+        <form id="form" method="post" name="myform" onsubmit="return validateform()">
+            <div>
+                <label for="username">Username</label><br/>
+                <input type="text" placeholder="username" name="username" id="username"/>
+            </div>
+        <br/>
+            <div>
+                <label for="password">Password</label><br/>
+                <input  type="password" placeholder="*********" name="password" id="password"/>
+            </div>
+        <br/>
+            <div>
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>

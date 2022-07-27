@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to right,blue, skyblue);
+}
+.center{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content:center;
+    margin-top: 15%;
+    margin-left: 43%;
+    width: 200px;
+    height: 200px;
+    background-color: #917878;
+    border-radius: 5px;
+}
+.center:hover{
+    background-image: linear-gradient(to left, #e26969, #e45454);
+}
